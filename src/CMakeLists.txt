@@ -63,6 +63,8 @@ set(llvm_libs
   ${LLVM_TARGETS_TO_BUILD}
   )
 
+set(CMAKE_MSVC_RUNTIME_LIBRARY MultiThreaded)
+
 add_executable(castxml
   castxml.cxx
 
